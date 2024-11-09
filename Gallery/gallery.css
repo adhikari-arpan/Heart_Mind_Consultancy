@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the gallery */
+.gallery-container {
+  width: 100%;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Title and description styling */
+h2 {
+  font-size: 2.5em;
+  color: #21a4ae;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* The gallery section */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  margin-bottom: 60px; /* Bottom gap */
+}
+
+/* Gallery item */
+.gallery-item {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  opacity: 0; /* Initially hidden for fade-in effect */
+  transform: translateY(20px); /* Initially moved down */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Fade-in effect when visible */
+.gallery-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 2em;
+  }
+  .intro-text {
+    font-size: 1em;
+  }
+}
