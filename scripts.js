@@ -135,7 +135,7 @@ function currentSlide(index) {
 showSlide(currentSlideIndex);
 
 // Auto SLide Timer
-setInterval(nextSlide, 10000); 
+setInterval(nextSlide, 60000); 
 
 
 //Hamburger Nav Bar
