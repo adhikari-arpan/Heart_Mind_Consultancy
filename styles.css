@@ -172,7 +172,7 @@ body {
 .popup-content {
   background-color: #fff;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
   position: relative;
   max-width: 500px;
   width: 90%;
@@ -182,9 +182,9 @@ body {
 
 .close-btn {
   position: absolute;
-  top: 10px;
+  top: 0px;
   right: 10px;
-  font-size: 24px;
+  font-size: 35px;
   color: #000;
   cursor: pointer;
   z-index: 1100;
@@ -192,6 +192,10 @@ body {
 
 /* Additional media query for smaller screens */
 @media (max-width: 600px) {
+  .close-btn {
+    font-size: 30px;
+  }
+
   .popup-content {
       margin-top: 50px; /* Increase margin on mobile to clear navbar */
       padding: 15px;
