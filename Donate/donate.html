@@ -6,6 +6,7 @@
     <title>Donate - HeartMind Consultancy</title>
     <link rel="stylesheet" href="donate.css" />
     <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../subpage.css" />
     <link rel="icon" href="../Image/Logo Ico.ico" type="image/x-icon" />
     <link
       rel="shortcut icon"
@@ -27,13 +28,38 @@
           <img src="../Image/logo.png" alt="Company Logo" />
         </a>
       </div>
-      <div class="hamburger" onclick="toggleMenu()">☰</div>
-      <ul class="nav-links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="#footer">Contact</a></li>
-        <li></li>
-        <li></li>
-      </ul>
+      <a href="../index.html">
+        <button class="backtohome">
+          <span class="button__icon-wrapper">
+            <svg
+              viewBox="0 0 14 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="button__icon-svg"
+              width="10"
+            >
+              <path
+                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                fill="currentColor"
+              ></path>
+            </svg>
+
+            <svg
+              viewBox="0 0 14 15"
+              fill="none"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+              class="button__icon-svg button__icon-svg--copy"
+            >
+              <path
+                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </span>
+          Back to home
+        </button>
+      </a>
     </nav>
 
     <div class="donation-container">
@@ -45,9 +71,9 @@
           class="qr-image"
         />
       </div>
-      <h2 class="other-methods-title">Other methods of help:</h2>
+      <!-- <h2 class="other-methods-title">Other methods of help:</h2>
       <div class="other-methods">
-        <!-- Additional content can be added here later -->
+         Additional content can be added here later -->
       </div>
     </div>
 
