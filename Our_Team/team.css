@@ -1,0 +1,112 @@
+.team-section {
+  padding: 2rem 1rem;
+}
+
+.team-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #21a4ae, #27ada6, #2cbd8e, #6cc59e);
+  margin: 20px 0;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.team-container.left{
+  flex-direction: row;
+}
+
+.team-container.right{
+  flex-direction: row-reverse;
+}
+
+.team-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.team-photo {
+  max-width: 250px;
+  height: auto;
+  margin-right: 2rem;
+  flex: 1;
+  perspective: 1000px;
+}
+
+.team-container.right .team-photo {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.team-photo img {
+  padding-left: 10%;
+  width: 100%;
+  border-radius: 1px;
+  /* transform: rotateY(90deg); */
+  transition: transform 0.8s ease-in-out;
+}
+
+.team-photo img:hover {
+  transform: rotateY(0);
+}
+
+.team-details {
+  flex: 1;
+  padding: 20px;
+  color: #fff;
+}
+
+.team-details h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.team-details p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.team-details blockquote {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+  .team-container ,
+  .team-container.reverse{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    text-align: center;
+  }
+
+  .team-photo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+  }
+
+  .team-photo img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .team-name, .team-position {
+    text-align: center;
+  }
+
+  .team-quote {
+    margin-top: 1rem;
+    width: 100%; /* Expand blockquote fully */
+  }
+
+  .team-details blockquote {
+    margin-top: 1rem;
+    margin-left: -10%; /* Expand blockquote left */
+    margin-right: -10%; /* Expand blockquote right */
+    padding: 1rem 1.5rem; /* Adjust padding for better readability */
+    width: auto; /* Allow blockquote to use the expanded space */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+}
