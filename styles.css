@@ -722,6 +722,10 @@ body {
   transition: transform 0.5s ease;
 }
 
+.slide.active, .slide {
+  text-align: justify; /* Justify text alignment */
+}
+
 .slide {
   width: 100%; /* Full width of the container */
   flex-shrink: 0; /* Prevent shrinking */
@@ -857,6 +861,12 @@ body {
 
   .hero-content iframe {
     width: 100%;
+  }
+
+  /* Media Queries for Impact Stories */
+  .slider-container {
+    padding: 5%;
+    width: 90%;
   }
 
   /* Media Queries for map */
