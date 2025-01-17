@@ -1,99 +1,124 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #ffffff;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
 }
 
-h1, h2, h3 {
-    color: #21A4AE;
-    margin-bottom: 10px;
+h1,
+h2,
+h3 {
+  color: #21a4ae;
+  margin-bottom: 10px;
 }
 
 nav {
-    height: auto;
-    position: relative; /* Ensure proper positioning */
-    z-index: 10; /* Ensure nav bar is above other content */
-    background-color: #ffffff; /* Add background color to nav */
-    padding: 0 15px;
-    overflow: hidden;
+  height: auto;
+  position: relative; /* Ensure proper positioning */
+  z-index: 10; /* Ensure nav bar is above other content */
+  background-color: #ffffff; /* Add background color to nav */
+  padding: 0 15px;
+  overflow: hidden;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    list-style-type: none; /* Remove default bullets */
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style-type: none; /* Remove default bullets */
 }
 
 h1 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 h2 {
-    font-size: 1.8em;
-    margin-top: 30px;
+  font-size: 1.8em;
+  margin-top: 30px;
 }
 
 h3 {
-    font-size: 1.4em;
-    margin-top: 20px;
+  font-size: 1.4em;
+  margin-top: 20px;
 }
 
 /* Section Styles */
-.company-info, .mission-vision, .strengths, .key-features, .aboutServices, .marketing-strategies, .values-culture {
-    margin-bottom: 40px;
-    padding: 20px;
-    background-color: #f1f1f1;
-    border-radius: 10px;
+.company-info,
+.mission-vision,
+.strengths,
+.key-features,
+.aboutServices,
+.marketing-strategies,
+.values-culture {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
 }
 
 .company-info {
-    text-align: center;
+  text-align: center;
 }
 
 /* Specific List Styles */
-.company-info ul, 
-.mission-vision ul, 
-.strengths ul, 
-.key-features ul, 
-.aboutServices ul, 
-.marketing-strategies ul, 
+.company-info ul,
+.mission-vision ul,
+.strengths ul,
+.key-features ul,
+.aboutServices ul,
+.marketing-strategies ul,
 .values-culture ul {
-    list-style-type: none; /* Remove bullets */
-    padding: 0;
-    margin: 0;
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin: 0;
 }
 
-p, li {
-    font-size: 1em;
-    margin-bottom: 10px;
+p,
+li {
+  font-size: 1em;
+  margin-bottom: 10px;
 }
 
 /* Link Styles */
 .link-default {
-    color: #2CBD8E;
-    text-decoration: none;
+  color: #2cbd8e;
+  text-decoration: none;
 }
 
 .link-default:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* General List Style Adjustment */
 ul {
-    padding-left: 0; /* Remove default padding */
+  padding-left: 0; /* Remove default padding */
 }
 
 li {
-    list-style-type: none; /* Removes bullets globally */
+  list-style-type: none; /* Removes bullets globally */
 }
 
 /* Targeting Marker */
 ul::marker {
-    content: ""; /* Ensures no marker appears */
+  content: ""; /* Ensures no marker appears */
+}
+
+.btn-annual-report {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #21a4ae; /* Matches your green palette */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-annual-report:hover {
+  background-color: #2cbd8e; /* Slightly lighter shade on hover */
 }
