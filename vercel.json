@@ -1,0 +1,17 @@
+{
+    "rewrites": [
+      { "source": "/index.html", "destination": "/" },
+
+      
+          { "source": "/AboutUs", "destination": "/AboutUs/about.html" },
+          { "source": "/Services", "destination": "/Services/services.html" },
+          { "source": "/Contact", "destination": "/Contact/contact.html" }
+        ],
+        
+        "redirects": [
+          { "source": "/AboutUs/about.html", "destination": "/AboutUs", "permanent": true },
+          { "source": "/Services/services.html", "destination": "/Services", "permanent": true },
+          { "source": "/Contact/contact.html", "destination": "/Contact", "permanent": true }
+        ]
+}
+  
