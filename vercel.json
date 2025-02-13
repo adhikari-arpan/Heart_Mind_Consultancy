@@ -11,7 +11,9 @@
         "redirects": [
           { "source": "/AboutUs/about.html", "destination": "/AboutUs", "permanent": true },
           { "source": "/Services/services.html", "destination": "/Services", "permanent": true },
-          { "source": "/Contact/contact.html", "destination": "/Contact", "permanent": true }
+          { "source": "/Contact/contact.html", "destination": "/Contact", "permanent": true },
+          { "source": "/index.html", "destination": "/", "permanent": true }
         ]
+
 }
   
