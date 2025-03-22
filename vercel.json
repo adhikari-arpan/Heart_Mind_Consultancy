@@ -1,12 +1,10 @@
 {
     "rewrites": [
-      { "source": "/index.html", "destination": "/" },
-
-      
-          { "source": "/AboutUs", "destination": "/AboutUs/about.html" },
-          { "source": "/Services", "destination": "/Services/services.html" },
-          { "source": "/Contact", "destination": "/Contact/contact.html" },
-          { "source": "/Donate", "destination": "/Donate/donate.html" }
+          { "source": "/index.html", "destination": "/" },
+          { "source": "./AboutUs/about.html", "destination": "/AboutUs" },
+          { "source": "./Donate/donate.html", "destination": "/Donate" },
+          { "source": "./Our_Team/team.html", "destination": "Team" },
+          { "source": "./Gallery/gallery.html", "destination": "/Gallery" }
         ],
         
         "redirects": [
