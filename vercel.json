@@ -5,7 +5,8 @@
       
           { "source": "/AboutUs", "destination": "/AboutUs/about.html" },
           { "source": "/Services", "destination": "/Services/services.html" },
-          { "source": "/Contact", "destination": "/Contact/contact.html" }
+          { "source": "/Contact", "destination": "/Contact/contact.html" },
+          { "source": "/Donate", "destination": "/Donate/donate.html" }
         ],
         
         "redirects": [
