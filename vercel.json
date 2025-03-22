@@ -1,21 +1,13 @@
 {
-  "rewrites": [
-    { "source": "/index.html", "destination": "/" },
-    { "source": "/AboutUs", "destination": "/AboutUs/about.html" },
-    { "source": "/Services", "destination": "/Services/services.html" },
-    { "source": "/Contact", "destination": "/Contact/contact.html" },
-    { "source": "/Team", "destination": "/Our_Team/team.html" },
-    { "source": "/Gallery", "destination": "/Gallery/gallery.html" },
-    { "source": "/Donate", "destination": "/Donate/donate.html" }
-  ],
-  
-  "redirects": [
-    { "source": "/AboutUs/about.html", "destination": "/AboutUs", "permanent": true },
-    { "source": "/Services/services.html", "destination": "/Services", "permanent": true },
-    { "source": "/Contact/contact.html", "destination": "/Contact", "permanent": true },
-    { "source": "/index.html", "destination": "/", "permanent": true },
-    { "source": "/Our_Team/team.html", "destination": "/Team", "permanent": true },
-    { "source": "/Gallery/gallery.html", "destination": "/Gallery", "permanent": true },
-    { "source": "/Donate/donate.html", "destination": "/Donate", "permanent": true }
-  ]
+    "rewrites": [
+          { "source": "/index.html", "destination": "/" },
+          { "source": "/AboutUs", "destination": "/AboutUs/about.html" }
+        ],
+        
+        "redirects": [
+          { "source": "/AboutUs/about.html", "destination": "/AboutUs", "permanent": true },
+          { "source": "/index.html", "destination": "/", "permanent": true }
+        ]
+
 }
+  
