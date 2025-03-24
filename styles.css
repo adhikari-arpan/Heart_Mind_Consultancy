@@ -842,8 +842,7 @@ body {
 
   /* When hamburger is clicked, show links */
   .nav-links.show {
-    display: block;
-    background-color: black;
+    background-color: rgb(8, 172, 106);
     position: absolute;
     top: 90%;
     left: 67%;
