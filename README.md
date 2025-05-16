@@ -2,6 +2,8 @@
 
 This is the official website I developed for **Heart-Mind Consultancy Pvt. Ltd.**, a mental health-focused organization based in Pokhara. The website was **live and officially used for 2 years (2024–2026)** to provide information, services, and updates to the public.
 
+---
+
 ## 🧠 About the Organization
 
 Heart-Mind Consultancy Pvt. Ltd., established on March 1st, 2024, is dedicated to promoting psychosocial and mental health well-being. The organization offers services like counseling, training, and mental health awareness programs.
